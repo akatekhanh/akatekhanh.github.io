@@ -1,16 +1,20 @@
 ---
 layout: page
 title: About me
-subtitle: Why you'd want to go on a date with me
+subtitle: Mình hiện tại là một developer.
 ---
 
-My name is Inigo Montoya. I have the following qualities:
+Hello mọi người, mình là Quốc Khánh hiện tại mình đang là một python developer.
+Python là ngôn ngữ ưa thích của mình, và cũng rất muốn chia sẻ những kinh nghiệm nhỏ nhoi của 
+mình để lan toả kiến thức đồng thời cũng là củng cố lại kiến thức của mình.
 
-- I rock a great mustache
-- I'm extremely loyal to my family
+#### Blog này gồm những chủ đề gì???
 
-What else do you need?
+1. Python cơ bản.
+2. Nhập môn lập trình cơ bản với C++
+3. Cấu trúc dữ liệu cơ bản và nâng cao
+4. DevOps and Cloud(AWS)
+5. Linh tinh
 
-### My story
+### Câu chuyện của mình 
 
-To be honest, I'm having some trouble remembering right now, so why don't you just watch [my movie](https://en.wikipedia.org/wiki/The_Princess_Bride_%28film%29) and it will answer **all** your questions.
