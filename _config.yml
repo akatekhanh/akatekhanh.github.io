@@ -6,7 +6,7 @@
 # --- Required options --- #
 
 # Name of website
-title: Akate Khanh
+title: Khanh's blog
 
 # Your name to show in the footer
 author: Quoc Khanh
@@ -15,9 +15,7 @@ author: Quoc Khanh
 
 navbar-links:
   About Me: "aboutme"
-  Resources:
-    - Python cơ bản
-    - Learn markdown: "https://www.markdowntutorial.com/"
+  Resources: "resource"
 
 # --- Logo --- #
 
@@ -69,7 +67,7 @@ share-links-active:
   twitter: true
   facebook: true
   linkedin: true
-  vk: false
+  # vk: false
 
 # How to display the link to your website in the footer
 # Remove this if you don't want a link in the footer
@@ -85,7 +83,7 @@ feed_show_excerpt: true
 feed_show_tags: true
 
 # Add a search button to the navbar
-post_search: true
+# post_search: true
 
 # The keywords to associate with your website, for SEO purposes
 #keywords: "my,list,of,keywords"
@@ -94,8 +92,8 @@ post_search: true
 
 # Personalize the colours in your website. Colour values can be any valid CSS colour
 
-navbar-col: "#EAEAEA"
-navbar-text-col: "#404040"
+navbar-col: "#5FB5B2"
+navbar-text-col: "#f2eded"
 navbar-border-col: "#DDDDDD"
 page-col: "#FFFFFF"
 text-col: "#404040"
