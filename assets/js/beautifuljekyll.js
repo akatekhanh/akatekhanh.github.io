@@ -1,4 +1,4 @@
-// Dean Attali / Beautiful Jekyll 2020
+// Dean Attali / Beautiful Jekyll 2021
 
 var BeautifulJekyllJS = {
 
