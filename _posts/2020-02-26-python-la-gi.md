@@ -6,6 +6,7 @@ subtitle:  Điểm mạnh và yếu của Python
 # thumbnail-img: /assets/img/thumb.png
 share-img: /assets/img/path.jpg
 tags: [Python cơ bản]
+comments: true
 ---
 
 Python cũng là một ngôn ngữ lập trình như những ngôn ngữ lập trình khác. Đặc điểm nổi bật của nó là cú pháp thanh lịch, đơn giản, dễ học cho người mới bắt đầu, hỗ trợ cả hướng đối tượng và là ngôn ngữ đa mục đích được ứng dụng trong rất nhiều lĩnh vực đặc biệt là **khoa học dữ liệu và trí tuệ nhân tạo** hiện nay.
