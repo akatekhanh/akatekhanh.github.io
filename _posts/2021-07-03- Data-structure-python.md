@@ -32,9 +32,7 @@ type(list_example)
 
 Các thao tác cơ bản với List: 
 
-- **Truy cập tới phần tử trong mảng.**
-
-Khi truy cập tới các phần tử trong mảng ta sử dụng **index** để truy xuất, index bắt đầu từ 0
+**Truy cập tới phần tử trong mảng**: Khi truy cập tới các phần tử trong mảng ta sử dụng **index** để truy xuất, index bắt đầu từ 0
 
 ```python
 print(list_example[0]) 
@@ -50,7 +48,7 @@ print(list_example)
 # ['abcedf', 'a', [1, 4, 'abc']]
 ```
 
-- **Một số thao tác trên List sử dụng các built-in function.**
+**Một số thao tác trên List sử dụng các built-in function.**
 
     - Lấy độ dài của một mảng ta sử dụng hàm **len()**
     ```python
@@ -90,7 +88,7 @@ type(example_tuple)
 # <class 'tuple'>
 ```
 
-- **Một số thao tác cần lưu ý khi sử dụng Tuple**
+**Một số thao tác cần lưu ý khi sử dụng Tuple**
     - Không thể thay đổi phần tử trong Tuple
     - Không thể xoá phần tử trong Tuple
 
@@ -103,7 +101,7 @@ type(example_set)
 # <class 'set'>
 ```
 
-- **Các thao tác cơ bản với Set.**
+**Các thao tác cơ bản với Set.**
 
 ```python
 # Thêm một phần tử vào set
@@ -117,7 +115,7 @@ print(example_set)
 # {'a', 10, 'b'}
 ```
 
-- **Phép giao, phép hợp, phép bù và phép trừ với Set.**
+**Phép giao, phép hợp, phép bù và phép trừ với Set.**
 
 ```python
 example_set_1 = {1, 2, 3, 4}
@@ -144,7 +142,7 @@ print(example_set)
 # {1, 2}
 ```
 
-- Một ứng dụng khác cũng rất hay gặp trong Set là kĩ thuật loại bỏ các phần tử trùng nhau (deduplicate)
+Một ứng dụng khác cũng rất hay gặp trong Set là kĩ thuật loại bỏ các phần tử trùng nhau (deduplicate)
 ```python
 example_deduplicate = set([1, 4, 1, 5, 6, 1, 4, 9])
 print(example_deduplicate)
@@ -163,7 +161,7 @@ type(example_dict)
 <class 'dict'>
 ```
 
-- **Một số thao tác cơ bản trên dict**
+**Một số thao tác cơ bản trên dict**
 
 ```python
 # Lấy key của dict, return list of keys
