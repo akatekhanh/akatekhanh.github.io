@@ -3,6 +3,7 @@ layout: post
 title: 3.Cấu trúc dữ liệu trong python
 subtitle: Sự khác biệt và ứng dụng của các kiểu cấu trúc dữ liệu thông dụng của List, Set, Tuple và Dictionary
 tags: [Python cơ bản]
+cover-img: /assets/img/3.data-structure/img-1.jpeg
 comments: true
 ---
 Chào các bạn, cấu trúc dữ liệu là một phần quan trọng không chỉ của _Python_ mà còn quan trọng ở các ngôn ngữ lập trình khác. Tuy nhiên mỗi kiểu cấu trúc trong từng ngôn ngữ khác nhau lại có những tính chất, đặc trưng khác nhau. Trong nội dung bài viết này mình xin trình bày 4 kiểu cấu trúc dữ liệu quan trọng và cơ bản của _Python_ để người đọc nắm rõ những tính chất và đặc trưng của nó, áp dụng vào những vấn đề của riêng mình.
