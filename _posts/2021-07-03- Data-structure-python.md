@@ -1,6 +1,6 @@
 ---
 layout: post 
-title: 3.Cấu trúc dữ liệu trong python
+title: 3. Cấu trúc dữ liệu trong python
 subtitle: Sự khác biệt và ứng dụng của các kiểu cấu trúc dữ liệu thông dụng của List, Set, Tuple và Dictionary
 tags: [Python cơ bản]
 cover-img: /assets/img/3.data-structure/img-1.jpeg
