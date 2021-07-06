@@ -196,6 +196,6 @@ Như vậy ta đã tìm hiểu xong 4 cấu trúc dữ liệu cực kì quan tr�
 | :------ |:--- | :--- | :--- |
 | Có thể chứa bất kì kiểu dữ liệu nào | Có thể chứa bất kì kiểu dữ liệu nào | Có thể chứa bất kì kiểu dữ liệu nào | Dữ liệu lưu dưới dạng key-value|
 | Mutable(có thể sửa đổi các phần tử) | Immutable(không thể sửa đổi các phần tử) | Mutable(có thể sửa đổi các phần tử) | Mutable(có thể sửa đổi các phần tử) trong value của key|
-| list_example = [1, 2, [3, 4]] | tuple_example = {1, 2, 2, 1} | set_example = (1, 2, 7, 8) | dict_example = {2: 'abc', 'item_2': 20}|
+| list_example = [1, 2, [3, 4]] | tuple_example = (1, 2, 2, 1) | set_example = {1, 2, 7, 8} | dict_example = {2: 'abc', 'item_2': 20}|
 
 
