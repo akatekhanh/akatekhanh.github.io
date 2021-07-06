@@ -31,8 +31,9 @@ test_lambda(5, 10)
 ```
 
 Syntax lambda function (mình sử dụng syntax tổng quát)
-{: .box-note}
 lambda (<param>(, <param>)*)? : <expression>
+{: .box-note}
+
 
 Như vậy các bạn đã hiểu tại sao gọi là hàm lambda là gì và tại sao lại gọi là hàm lambda. Vậy hàm lambda dùng để làm gì ? Một số trường hợp ta nên sử dụng lambda function như sau:
 - Khi ta muốn sử dụng hàm một lần, với ít tham số và ít các phát biểu (statements).
