@@ -35,33 +35,36 @@ lambda (<param>(, <param>)*)? : <expression>
 {: .box-note}
 
 
-Như vậy các bạn đã hiểu tại sao gọi là hàm lambda là gì và tại sao lại gọi là hàm lambda. Vậy hàm lambda dùng để làm gì ? Một số trường hợp ta nên sử dụng lambda function như sau:
+Vậy hàm lambda dùng để làm gì ? Một số trường hợp ta nên sử dụng lambda function như sau:
 - Khi ta muốn sử dụng hàm một lần, với ít tham số và ít các phát biểu (statements).
 - Dễ hiểu logic và trực quan, giúp code dễ đọc hơn.
 
 ## Hàm bậc cao: map, filter, reduce
 
-Hàm bậc cao trong Python nói riêng và trong Khoa học máy tính nói chung gồm một số đặc điểm sau:
-    - Tham số nhận vào là một hàm hoặc một danh sách hàm.
-    - Kết quả trả về là một hàm.
+Hàm bậc cao trong Python nói riêng và trong Khoa học máy tính nói chung là hàm nhận tham số là một hàm khác và trả về một hàm (Higher order functions). Một số tính chất của hàm bậc cao: 
+- Tham số nhận vào là một hàm hoặc một danh sách hàm.
+- Kết quả trả về là một hàm.
 
 Một số hàm bậc cao được tích hợp sẵn trong Python gồm **map(), filte(), reduce()**. Vì hàm bậc cao nhận đối số vào là 1 chuỗi tham số là các hàm nên hàm vô danh Lambda được sử dụng tốt nhất với các hàm này.
 
 ### Map() function
 
 Syntax function:
-
 ```python
-map(<function>, <sequence>): <function> lấy mỗi phần tử trong chuỗi <sequence> và trả về một trình lặp.
+map(<function>, <sequence>)
+
+<function>: Tham số đầu tiên của hàm _map()_ là một hàm khác (callable), hoặc có thể là một hàm Lambda.
+<sequence>: Là một iterator. Ví dụ như List, set, tuple hoặc là một iterator.
 ```
 
-Nghe hơi khó hiểu ha, mình sẽ lấy một vài ví dụ. _Giả sử chúng ta có 1 list các number, và ta đang muốn nhân từng số đó với 100_. 
+_Giả sử chúng ta có 1 list các number, và ta đang muốn nhân từng số đó với 100_. 
 
 ```python
 list_number = [1, 2, 3, 4, 5]
-new_list_number = list(map(lambda: number, number * 100), list_number)
+new_list_number = list(map(lambda number: number * 100), list_number)
 print(new_list_number)
 # [100, 200, 300, 400, 500]
+
 
 # Hoặc 1 cách tiếp cận khác cho bài toán vừa rồi là dùng list comprehension
 new_list_number = [number*100 for number in list_number]
@@ -79,3 +82,52 @@ print(new_list)
 ```
 
 ### Filter() function
+Filter trong Python là hàm dùng để lọc ra các phần tử theo điều kiện của hàm truyền vào. Cú pháp của _filter_ cũng tương tự như hàm _map()_
+
+```python
+filter(<function>, <sequence>)
+
+<function>: Tham số đầu tiên của hàm _map()_ là một hàm khác (callable), hoặc có thể là một hàm Lambda.
+<sequence>: Là một iterator. Ví dụ như List, set, tuple hoặc là một iterator.
+```
+
+Một ví dụ khác về cách sử dụng hàm **map()**.
+
+```python
+numbers = [1, 3, 6, 9, 15]
+is_odd = filter((lambda number: number%2==1), numbers)
+for number in is_odd:
+    print(number)
+# 1
+# 3
+# 9
+# 15
+```
+
+### Reduce() function
+![Reduce function](/assets/img/4.higher-function/2022-01-08-21-50-19.png)
+Tương tự như _map() và filter()_, reduce() cũng nhận hai tham số đầu vào là một function callale và một sequence. Tuy nhiên _reduce()_ có một vài điểm khác so với _map() và filter()_, thay vì duyệt qua từng phần tử thì reduce sẽ gộp (combine) mỗi hai phần tử trong sequence sau đó đưa vào function của tham số thứ nhất để tính toán. Chúng ta hãy xem xét ví dụ dưới đây:
+
+```python
+# Import reduce từ module functools
+from functools import reduce
+numbers = [1, 2, 3, 5, 8, 13]
+
+def normal_sum(x, y):
+    return x + y
+
+# Sử dụng normal_sum như tham số đầu vào của reduce
+result = reduce(normal_sum, numbers)
+
+# Hàm reduce sẽ combine từng cặp phần tử trong biến numbers
+# đưa vào hàm normal_sum để tính toán, kết quả của lần lặp 
+# sẽ tiếp tục được combine với phần tử tiếp theo của biến numbers để tính toán
+Output: (((((1+2)+3)+5)+8)+13) = 32
+```
+
+```python
+
+```
+
+
+
