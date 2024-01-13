@@ -1,7 +1,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <link rel="icon" href="https://akatekhanh.github.io/assets/img/thumb.png">
+  <link rel="icon" href="https://akatekhanh.github.io/assets/img/logo.png">
   {% capture title %}
     {%- if page.share-title -%}
       {{ page.share-title | strip_html | xml_escape }}
@@ -39,7 +39,9 @@
   <meta name="keywords" content="{{ site.keywords }}">
   {% endif %}
 
+  {% if site.rss-description %}
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ '/feed.xml' | absolute_url }}">
+  {% endif %}
 
   {% include gtag.html %}
   {% include gtm_head.html %}

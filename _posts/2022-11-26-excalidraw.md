@@ -1,20 +1,38 @@
 ---
 layout: post 
-title: 5. Lập trình hướng đối tượng trong Python (part 1)
-subtitle: 5.1 Cùng tìm hiểu về OOP trong Python.
-tags: [Python cơ bản]
-cover-img: /assets/img/3.data-structure/img-1.jpeg
+title: <b>Mình dùng tool gì để vẽ các Diagram, đồ thị?</b>
+subtitle: Obsidian and Excalidraw plugin
+tags: [Sharing]
+cover-img: /assets/img/sharing/img_1.png
 comments: true
 ---
-Python là ngôn ngữ thông dịch (interpreter), hỗ trợ các cách thức lập trình hướng đối tượng (Object-Oriented Programming ) như một số ngôn ngữ Java hay C#. Nó cũng tuân theo một số nguyên lý cơ bản của OOP bao gồm tính **đóng gói**, tính **kế thừa**, tính **đa hình** và tính **trừu tượng**.
+
+Chào các bạn, khi làm việc chúng ta sẽ có những công việc cần lưu ý, những kiến thức hay cần ghi nhớ, những đoạn code hay cần được note lại.
+Thông thường thì các bạn sẽ sử dụng tool gì để viết note nhỉ? Mình khá chắc là hiện tại có rất là nhiều note tool chẳng hạn như:
+- Notion: cái này có bản Personal và cho Team. Notion cho phép người dùng tạo ra các website, các bạn báo cáo nhanh, các công cụ cũng rất đa dạng như **table, list, hay tích hợp tools của bên thứ 3 vào**
+- Microsoft Notes: cái này mình thấy một số anh chị xài chung với hệ sinh thái của Microsoft, nó cũng rất mạnh (nhưng mà mình không thích là nó không cho hightlight code :D)
+- Obsidian: tool note mà mình sẽ giới thiệu trong bài này. Nó sử dụng _markdown_ language để hiển thị, điểm mạnh của Obsidian là cho phép người  dùng cài thêm các bộ plugin và có khá nhiều phím tắt. Mình hay note và thường vẽ các đồ thị, diagram để đính kém vào trong note luôn, nên Obsidian và Excalidraw(plugin để vẽ vời :D) là một giải pháp tuyệt vời.
+
+Bắt tay vô xem Obsidian và Excalidraw là cái gì nào !!
 ![OOP trong python](/assets/img/5.python-oop/4-oop.png)
 
-## 1. Lớp (class) và đối tượng (Object)
-**Class** và **Object** là hai khái niệm quan trọng trong OOP mà rất nhiều bạn hay nhầm lẫn
-1. **class** là một kiểu dữ liệu do người dùng tự định nghĩa, bao gồm các biến, thuộc tính đặc trưng cho đối tượng đó
-2. **object** là những thực thể được khởi tạo từ class.
+## 1. Obsidian là gì? Cài đặt và hướng dẫn tạo một cái note đơn giản.
+### Cài đặt Obsidian
+Obsidian là phần mềm free, các bạn có thể tải tại [trang chủ](https://obsidian.md/) của nó.\
+![Obsidian](/assets/img/sharing/img_2.png) 
 
-Hãy tưởng tượng class như một chiếc khuôn định nghĩa một thực thể sẽ có thuộc tính gì, hành vi như thế nào, Object là hiện thực hoá thực thể đó. Ví dụ người có tay có chân, nhưng tuỳ mỗi người mà tay và chân có thể khác màu da, kích thước. Để mô phỏng, mình sẽ lấy ví dụ về một lớp Person.
+Sau khi cài xong các bạn cài đặt như bình thuờng. Giao diện của Obsidian sẽ như sau:
+![Giao diện](/assets/img/sharing/img_3.png) 
+
+### Tạo một cái note đơn giản.
+**Obsidian** hỗ trợ rất nhiều phím tắt (shortcut) giúp tăng tốc độ làm việc. Các bạn có thể tìm một số shortcut hữu ích và hay sử dụng [tại đây](https://forum.obsidian.md/t/obsidian-hotkeys-favorites-and-best-practices/12125)
+
+Để tạo mới một note, các bạn chọn _Create new file_ hoặc **Ctrl + N** (macos Cmd + N)
+
+### Cách sử dụng
+
+1. **Mở đầu**
+2. 
 
 ![Class và Object](/assets/img/5.python-oop/class-object.png)
 
