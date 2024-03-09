@@ -5,12 +5,11 @@ subtitle:  File format - Parquet, Avro, ORC
 # cover-img: /assets/img/path.jpg
 thumbnail-img: /assets/img/data_engineer/2024-03-07-file-format-choosing/parquet_avro_orc.png
 share-img: /assets/img/path.jpg
-tags: [data engineer]
+tags: [Data engineer]
 comments: true
 ---
+Khi làm việc với dữ liệu, đặc biệt là dữ liệu lớn, việc lựa chọn định dạng lưu trữ file đúng từ ban đầu không những giúp ích rất nhiều cho bài toán về tối ưu chi phí lưu trữ, khả năng phân tích sau này cũng như là tiết kiệm chi phí tính toán. Bài viết này sẽ giúp các bạn có góc nhìn về sự khác biệt giữa định dạng file ORC, Parquet và Avro, bao gồm các trường hợp sử dụng tối ưu của chúng, và sâu hơn nữa vào các phương pháp hay nhất cho việc lưu trữ dữ liệu trên Cloud.
 
-* TOC
-{:toc}
 
 ## File format là gì?
 
@@ -114,3 +113,6 @@ Lợi ích của việc sử dụng Parquet không chỉ dừng lại ở việc
 Các usecase phổ biến của Parquet bao gồm lưu trữ dữ liệu lớn trong các hệ thống Hadoop và Spark, xử lý và phân tích dữ liệu lớn, và làm dữ liệu nguồn cho các công cụ truy vấn dữ liệu như Apache Drill và Apache Impala. Parquet cũng được sử dụng rộng rãi trong các hệ thống data warehouse và data lake, nơi mà hiệu suất truy vấn và khả năng lưu trữ dữ liệu hiệu quả là yếu tố quan trọng.
 
 Tóm lại, Parquet là một lựa chọn tối ưu cho việc lưu trữ và xử lý dữ liệu lớn trong các hệ thống Big Data, nhờ vào khả năng lưu trữ dữ liệu theo cột, hỗ trợ nén và encoding dữ liệu hiệu quả, và tối ưu hóa hiệu suất truy vấn.
+
+* TOC
+{:toc}
