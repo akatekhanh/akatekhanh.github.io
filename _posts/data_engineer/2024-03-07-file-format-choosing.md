@@ -8,6 +8,8 @@ share-img: /assets/img/path.jpg
 tags: [Data engineer]
 comments: true
 ---
+* TOC
+{:toc}
 Khi làm việc với dữ liệu, đặc biệt là dữ liệu lớn, việc lựa chọn định dạng lưu trữ file đúng từ ban đầu không những giúp ích rất nhiều cho bài toán về tối ưu chi phí lưu trữ, khả năng phân tích sau này cũng như là tiết kiệm chi phí tính toán. Bài viết này sẽ giúp các bạn có góc nhìn về sự khác biệt giữa định dạng file ORC, Parquet và Avro, bao gồm các trường hợp sử dụng tối ưu của chúng, và sâu hơn nữa vào các phương pháp hay nhất cho việc lưu trữ dữ liệu trên Cloud.
 
 
@@ -78,10 +80,12 @@ Bằng cách hiểu rõ các hạn chế và thách thức này, các kỹ sư d
 
 
 ## ORC - Optimized Row Columnar format - Đặc trưng và công dụng
-ORC (Optimized Row Columnar) format là một định dạng file được tối ưu hóa cho việc lưu trữ dữ liệu dạng hàng và cột, phát triển bởi Apache Hive. Định dạng này được thiết kế để cung cấp một hiệu suất cao trong việc truy vấn và xử lý dữ liệu lớn, đồng thời giảm dung lượng lưu trữ thông qua nén dữ liệu hiệu quả.
+ORC (Optimized Row Columnar) format là một định dạng file được tối ưu hóa cho việc lưu trữ dữ liệu dạng hàng và cột, phát triển bởi Apache Hive. Định dạng này được thiết kế để cung cấp một hiệu suất cao trong việc truy vấn và xử lý dữ liệu lớn với một số tác vụ(operation) như aggregate hay group by, đồng thời giảm dung lượng lưu trữ thông qua nén dữ liệu hiệu quả.
 
 ORC được Apache Hive (query engine) tối ưu cho việc lưu trữ và query (vectorize row-based) nên thông thường sẽ được sử dụng với các hệ thống của Hive. Trong khi một số query engine khác như Spark và FLink lại tập trung tối ưu dạng vectorized theo dạng Columnar format như Parquet. Khi sử dụng ORC cần phải lưu ý điểm này.
 
+Đây là hình minh hoạ (Medium source) khi lưu trữ data dưới dạng ORC
+![](/assets/img/data_engineer/2024-03-10-09-25-34.png)
 ### Đặc trưng của ORC
 - **Hiệu suất truy vấn cao**: ORC sử dụng cấu trúc dữ liệu cột (columnar) để tối ưu hóa việc truy vấn, giúp tăng tốc độ truy vấn dữ liệu.
 - **Nén dữ liệu hiệu quả**: Dữ liệu được nén một cách hiệu quả, giảm dung lượng lưu trữ cần thiết và tăng tốc độ truyền tải dữ liệu.
@@ -113,6 +117,3 @@ Lợi ích của việc sử dụng Parquet không chỉ dừng lại ở việc
 Các usecase phổ biến của Parquet bao gồm lưu trữ dữ liệu lớn trong các hệ thống Hadoop và Spark, xử lý và phân tích dữ liệu lớn, và làm dữ liệu nguồn cho các công cụ truy vấn dữ liệu như Apache Drill và Apache Impala. Parquet cũng được sử dụng rộng rãi trong các hệ thống data warehouse và data lake, nơi mà hiệu suất truy vấn và khả năng lưu trữ dữ liệu hiệu quả là yếu tố quan trọng.
 
 Tóm lại, Parquet là một lựa chọn tối ưu cho việc lưu trữ và xử lý dữ liệu lớn trong các hệ thống Big Data, nhờ vào khả năng lưu trữ dữ liệu theo cột, hỗ trợ nén và encoding dữ liệu hiệu quả, và tối ưu hóa hiệu suất truy vấn.
-
-* TOC
-{:toc}
