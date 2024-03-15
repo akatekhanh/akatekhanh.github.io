@@ -7,11 +7,12 @@ share-img: /assets/img/path.jpg
 tags: [Data engineer]
 comments: true
 ---
-* TOC
-{:toc}
 
 Khi làm việc tron lĩnh vực phần mềm, khá nhiều bạn đã từng nghe tới các khái niệm về hàng đợi Queue, hay message broker chẳng hạn như RabitMQ, ActiveMQ hay Redis(có thể xài Redis làm Cache layer). Còn nếu khi làm việc với data thì mình tin rằng ai cũng từng nghe tới Kafka. Vậy Kafka là gì? Tại sao hầu hết ai làm Data cũng sử dụng nó? Kiến trúc như thế nào và làm sao để sử dụng? Hãy tìm hiểu trong bài viết hôm nay.
 ![](/assets/img/data_engineer/kafka_in_practice/overview.png)
+
+* TOC
+{:toc}
 
 # Apache Kafka tổng quan
 
