@@ -49,7 +49,7 @@ round-avatar: true
 social-network-links:
   facebook: khanh.ngo0212
   github: akatekhanh0212
-  medium: geeksdata
+  # medium: geeksdata
 #  reddit: yourname
   linkedin: khanh-ngo0212
 #  xing: yourname
@@ -118,7 +118,7 @@ keywords: "akatekhanh, Hoc Python, Data Engineer"
 
 # Personalize the colours in your website. Colour values can be any valid CSS colour
 
-navbar-col: "#5FB5B2"
+navbar-col: "#5FB5B9"
 navbar-text-col: "#F2EDED"
 navbar-border-col: "#DDDDDD"
 page-col: "#FFFFFF"

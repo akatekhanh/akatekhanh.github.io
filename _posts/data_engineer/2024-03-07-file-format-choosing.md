@@ -85,7 +85,7 @@ ORC (Optimized Row Columnar) format là một định dạng file được tối
 ORC được Apache Hive (query engine) tối ưu cho việc lưu trữ và query (vectorize row-based) nên thông thường sẽ được sử dụng với các hệ thống của Hive. Trong khi một số query engine khác như Spark và FLink lại tập trung tối ưu dạng vectorized theo dạng Columnar format như Parquet. Khi sử dụng ORC cần phải lưu ý điểm này.
 
 Đây là hình minh hoạ (Medium source) khi lưu trữ data dưới dạng ORC
-![](/assets/img/data_engineer/2024-03-10-09-25-34.png)
+![ORC file format structure](/assets/img/data_engineer/2024-03-07-file-format-choosing/2024-03-10-09-25-34.png)
 ### Đặc trưng của ORC
 - **Hiệu suất truy vấn cao**: ORC sử dụng cấu trúc dữ liệu cột (columnar) để tối ưu hóa việc truy vấn, giúp tăng tốc độ truy vấn dữ liệu.
 - **Nén dữ liệu hiệu quả**: Dữ liệu được nén một cách hiệu quả, giảm dung lượng lưu trữ cần thiết và tăng tốc độ truyền tải dữ liệu.
