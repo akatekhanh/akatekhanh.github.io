@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Kafka từ cơ bản tới nâng cao - Vọc vạch cùng Python và Pyspark (part 1)
+title: Kafka từ cơ bản tới nâng cao - Tổng quan và các khái niệm cơ bản (part 1)
 subtitle:  Kafka - overview and fundamental concepts
 thumbnail-img: /assets/img/data_engineer/kafka_in_practice/overview.png
 share-img: /assets/img/path.jpg
