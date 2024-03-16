@@ -4,7 +4,8 @@ cover-img: /assets/img/about-img.jpeg
 ---
 >"Lúa chín cúi đầu - sông sâu tĩnh lặng"
 
-# Hi, mình là Quốc Khánh✌
-[Github repository](https://github.com/akatekhanh/akatekhanh.github.io)\
-[Linkedin](https://www.linkedin.com/in/khanh-ngo0212)\
-[Fiverr](https://www.fiverr.com/akatekhanh)
+[Github repository](https://github.com/akatekhanh/akatekhanh.github.io)
+
+
+## Setup env and scripting
+- [Geeksdata repository](https://github.com/akatekhanh/geeksdata/blob/main/docker-compose.yml)
