@@ -2,7 +2,7 @@
 layout: post
 title: Project - Dự án thực hành xử lý dữ liệu với Postgres and Data Build Tool (DBT)
 subtitle:  Data project with Postgres and DBT
-cover-img: /assets/img/projects/project_1/backgroup.png
+# cover-img: /assets/img/projects/project_1/backgroup.png
 # thumbnail-img: /assets/img/thumb.png
 share-img: /assets/img/projects/project_1/cover.png
 tags: [Project]
