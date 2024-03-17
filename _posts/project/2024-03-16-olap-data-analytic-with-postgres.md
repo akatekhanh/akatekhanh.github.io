@@ -135,6 +135,7 @@ Chúng ta sẽ làm việc tới 4 bảng dữ liệu:
 - customer
 - product
 - payment
+
 **Mục tiêu**: `tổng hợp được thông tin order ứng với khách hàng, thông tin khách hàng, thông tin sản phẩm và khối lượng của mỗi order`
 
 
