@@ -1,16 +1,17 @@
 ---
 layout: post
-title: Project - Dự án phân tích dữ liệu với Postgres and Data Build Tool (DBT)
-subtitle:  Data analytic project with DuckDB
-cover-img: /assets/img/path.jpg
+title: Project - Dự án thực hành xử lý dữ liệu với Postgres and Data Build Tool (DBT)
+subtitle:  Data project with Postgres and DBT
+cover-img: /assets/img/projects/project_1/backgroup.png
 # thumbnail-img: /assets/img/thumb.png
-share-img: /assets/img/path.jpg
+share-img: /assets/img/projects/project_1/cover.png
 tags: [Project]
 comments: true
 ---
+Trong năm qua, dbt đã trở thành một trong những công cụ yêu thích của tôi để biến đổi và phân tích dữ liệu...
+
 * TOC
 {:toc}
-
 ## Giới thiệu `dbt` - Data build tool và dự án đầu tiên
 Trong năm qua, dbt đã trở thành một trong những công cụ yêu thích của tôi để biến đổi và phân tích dữ liệu. Nó đã tạo ra sự khác biệt lớn trong cách tôi có thể làm việc một cách hiệu quả và tự tin hơn vào độ chính xác của kết quả của mình. Mình thấy rằng nó rất hữu ích trong việc tối ưu hóa quy trình dữ liệu của mình và đảm bảo đầu ra chất lượng cao.
 
@@ -26,7 +27,9 @@ Dự án đầu tiên của chúng tôi với DBT sẽ hướng dẫn bạn các
 
 
 ## Setup Docker cho Postgres
-Các bạn pull repository [ở đây](https://github.com/akatekhanh/geeksdata.git) về, và chuyển tới thư mục `projects/1_data_analytics_postgres_dbt`
+
+> Các bạn pull repository [ở đây](https://github.com/akatekhanh/geeksdata.git) về, và chuyển tới thư mục `projects/1_data_analytics_postgres_dbt`
+
 ![Alt text](/assets/img/projects/project_1/image.png)
 
 Các bạn chạy `make setup` để cài đặt Docker container cho Postgres, cài các Python dependencies cần thiết và tạo data mẫu cho quá trình thực hành.
