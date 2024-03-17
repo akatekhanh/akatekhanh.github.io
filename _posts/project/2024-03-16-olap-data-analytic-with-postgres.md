@@ -13,6 +13,8 @@ Trong năm qua, dbt đã trở thành một trong những công cụ yêu thích
 * TOC
 {:toc}
 ## Giới thiệu `dbt` - Data build tool và dự án đầu tiên
+[Data build tool](/assets/img/projects/project_1/backgroup.png)
+
 Trong năm qua, dbt đã trở thành một trong những công cụ yêu thích của tôi để biến đổi và phân tích dữ liệu. Nó đã tạo ra sự khác biệt lớn trong cách tôi có thể làm việc một cách hiệu quả và tự tin hơn vào độ chính xác của kết quả của mình. Mình thấy rằng nó rất hữu ích trong việc tối ưu hóa quy trình dữ liệu của mình và đảm bảo đầu ra chất lượng cao.
 
 Mình nghĩ rằng sẽ hữu ích nếu có một Project hướng dẫn sử dụng DBT. Thiết lập một không gian dành riêng để làm việc với dbt cho các bạn mới bắt đầu trên con đường Data engineer.
