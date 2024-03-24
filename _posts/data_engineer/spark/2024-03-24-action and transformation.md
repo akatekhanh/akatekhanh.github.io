@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Apache Spark: Action and Transformation in Spark 
+title: Apache Spark - Action and Transformation in Spark 
 subtitle:  Action and Transformation - Hiểu rõ để tối ưu pipeline.
 # cover-img: /assets/img/path.jpg
 thumbnail-img: /assets/img/data_engineer/2024-03-07-file-format-choosing/parquet_avro_orc.png
@@ -8,6 +8,7 @@ share-img: /assets/img/path.jpg
 tags: [Data engineer]
 comments: true
 ---
+Việc hiểu rõ sự khác biệt giữa action và transformation trong Spark là rất quan trọng để viết code Spark hiệu quả và tối ưu hóa các ứng dụng Spark....
 * TOC
 {:toc}
 
@@ -134,7 +135,7 @@ Số lượng phân vùng trong PySpark đề cập đến số lượng phân c
 Số lượng phân vùng là một yếu tố quan trọng ảnh hưởng đến hiệu suất của chương trình PySpark của bạn. Có quá ít phân vùng có thể dẫn đến độ parallelism thấp, trong khi có quá nhiều phân vùng có thể dẫn đến overhead lịch trình (schedule).
 
 
-## Kết luận
+## Chốt lại
 
 Việc hiểu rõ sự khác biệt giữa action và transformation trong Spark là rất quan trọng để viết mã Spark hiệu quả và tối ưu hóa các ứng dụng Spark.
 
