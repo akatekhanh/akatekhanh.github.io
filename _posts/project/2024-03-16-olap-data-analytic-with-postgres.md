@@ -374,9 +374,3 @@ Chúng ta không chỉ học cách cấu hình dbt, định nghĩa nguồn dữ 
 Không dừng lại ở đó, chúng ta đã thực hành tạo tài liệu và theo dõi lineage trên web với dbt gen docs, một công cụ giúp bạn dễ dàng quản lý và theo dõi dữ liệu một cách trực quan.
 
 Hy vọng rằng, qua dự án này, bạn đã nắm vững những kiến thức cơ bản về dbt và sẵn sàng áp dụng chúng vào công việc thực tế. Hãy tiếp tục khám phá và học hỏi để trở thành một data engineer xuất sắc nhé!
-
-
-
-
-
-
