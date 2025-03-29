@@ -367,13 +367,13 @@ Cùng xem lại bảng kết quả:
 ![Alt text](/assets/img/projects/project_1/image-10.png)
 
 ## Kết luận
-Qua dự án này, chúng ta đã tìm hiểu và thực hành với dbt, một công cụ rất mạnh mẽ trong việc xây dựng và quản lý data warehouse. 
+Trong hành trình khám phá dự án này, chúng ta đã mở ra cánh cửa đến với dbt - một công cụ mạnh mẽ và không thể thiếu trong việc xây dựng và quản lý data warehouse hiện đại.
 
-Chúng ta đã học cách cấu hình dbt, định nghĩa nguồn dữ liệu, tạo và kiểm tra các mô hình dbt. Đặc biệt, chúng ta đã thấy được sức mạnh của dbt trong việc tự động hóa quá trình ETL, giúp tiết kiệm thời gian và công sức đáng kể.
+Chúng ta không chỉ học cách cấu hình dbt, định nghĩa nguồn dữ liệu, mà còn thành thạo trong việc tạo và kiểm tra các mô hình dbt. Đặc biệt, dbt đã chứng minh sức mạnh vượt trội của mình trong việc tự động hóa quá trình ETL, mang lại sự tiết kiệm thời gian và công sức đáng kể, giúp bạn tập trung vào những điều quan trọng hơn.
 
-Ngoài ra, chúng ta cũng đã thực hành việc tạo document và xem lineage trên web bằng dbt gen docs, giúp chúng ta dễ dàng theo dõi và quản lý dữ liệu.
+Không dừng lại ở đó, chúng ta đã thực hành tạo tài liệu và theo dõi lineage trên web với dbt gen docs, một công cụ giúp bạn dễ dàng quản lý và theo dõi dữ liệu một cách trực quan.
 
-Hy vọng rằng, qua dự án này, bạn đã nắm bắt được kiến thức cơ bản về dbt và có thể áp dụng vào công việc thực tế của mình. Hãy tiếp tục khám phá và học hỏi để trở thành một data engineer giỏi nhé!
+Hy vọng rằng, qua dự án này, bạn đã nắm vững những kiến thức cơ bản về dbt và sẵn sàng áp dụng chúng vào công việc thực tế. Hãy tiếp tục khám phá và học hỏi để trở thành một data engineer xuất sắc nhé!
 
 
 
