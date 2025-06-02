@@ -6,6 +6,8 @@ subtitle:  File format - Parquet, Avro, ORC
 thumbnail-img: /assets/img/data_engineer/2024-03-07-file-format-choosing/parquet_avro_orc.png
 share-img: /assets/img/path.jpg
 tags: [Data engineer]
+toc: true
+toc_sticky: true
 comments: true
 ---
 * TOC

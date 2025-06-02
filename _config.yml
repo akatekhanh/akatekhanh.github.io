@@ -20,9 +20,12 @@ author: Geeks Data
 ###############################################
 
 navbar-links:
+  Data Engineer: "de"
+  Data Governance: "dg"
+  Data Science: "ds"
+  # Resources: "resource"
+  # Projects: "project"
   About Me: "aboutme"
-  Resources: "resource"
-  Projects: "project"
 
 ################
 # --- Logo --- #
@@ -240,10 +243,10 @@ date_format: "%B %-d, %Y"
 #################################################################################
 
 # Output options (more information on Jekyll's site)
-timezone: "America/Toronto"
+timezone: "Asia/Saigon"
 markdown: kramdown
 highlighter: rouge
-permalink: /:title/
+permalink: /:categories/:title/
 
 paginate: 5
 
